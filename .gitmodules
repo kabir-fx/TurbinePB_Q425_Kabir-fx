@@ -1,3 +1,6 @@
 [submodule "RNG_GAME/Rust-guessing-game"]
 	path = RNG_GAME/Rust-guessing-game
 	url = https://github.com/kabir-fx/Rust-guessing-game.git
+[submodule "On-Chain-Visit-Tracker"]
+	path = On-Chain-Visit-Tracker
+	url = https://github.com/kabir-fx/On-Chain-Visit-Tracker.git
