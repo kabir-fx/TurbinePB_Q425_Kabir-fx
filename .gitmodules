@@ -4,3 +4,6 @@
 [submodule "On-Chain-Visit-Tracker"]
 	path = On-Chain-Visit-Tracker
 	url = https://github.com/kabir-fx/On-Chain-Visit-Tracker.git
+[submodule "Rustlings"]
+	path = Rustlings
+	url = https://github.com/kabir-fx/Rustlings.git
