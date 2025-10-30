@@ -7,3 +7,6 @@
 [submodule "Rustlings"]
 	path = Rustlings
 	url = https://github.com/kabir-fx/Rustlings.git
+[submodule "solana-mint-token-blueprint"]
+	path = solana-mint-token-blueprint
+	url = https://github.com/kabir-fx/solana-mint-token-blueprint.git
