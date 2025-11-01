@@ -13,3 +13,6 @@
 [submodule "SOL-Vault"]
 	path = SOL-Vault
 	url = https://github.com/kabir-fx/SOL-Vault.git
+[submodule "Escrow-Blueprint"]
+	path = Escrow-Blueprint
+	url = https://github.com/kabir-fx/Escrow-Blueprint.git
