@@ -55,16 +55,17 @@ Comprehensive SPL token creation and minting with Metaplex metadata integration.
 - **Key Learnings**: CPI calls, Metaplex integration, token standards
 
 #### 4. [**SOL-Vault**](./SOL-Vault/)
-A programmable SOL vault system with automatic target amount management.
+A programmable token vault system with automatic target amount management.
 
 - **Features**:
   - Vault initialization with configurable target amounts
-  - Secure SOL deposits into PDA-owned vaults
+  - Secure token deposits into PDA-owned vaults
   - Flexible withdrawal mechanisms
-  - Automatic withdrawal when target is reached
+  - Automatic withdrawal when target amount is reached
 - **Deployed Addresses** (Devnet):
-  - Vault: `5hvm9t71H2YjGpUkNKiu474E9Yk5eguudwbXQpPNhm8C`
-  - Vault State: `J442izCkh3Y5LSMy8vW9A852YbuvQaXWCb7qNWymby75`
+  - Vault Address: [2edPKQcwc7ysGP7xP5EvhRcrBfGpg3WUfftvXXrm6Sxz](https://explorer.solana.com/address/2edPKQcwc7ysGP7xP5EvhRcrBfGpg3WUfftvXXrm6Sxz?cluster=devnet)
+  - Vault State Address: [DWeJiiaUEdkn1YcYueu1VjgjDmoc7CxUa4qPsEr7MucX](https://explorer.solana.com/address/DWeJiiaUEdkn1YcYueu1VjgjDmoc7CxUa4qPsEr7MucX?cluster=devnet)
+
 - **Key Learnings**: SOL transfers, PDA signing, state management
 
 #### 5. [**Escrow-Blueprint**](./Escrow-Blueprint/)
