@@ -19,15 +19,15 @@ Practical Rust projects for hands-on learning.
   - `counter`: Loop implementations (loop, while, for)
   - `Rust-guessing-game`: Interactive guessing game (submodule)
 
-#### 1. [**hello_solana_anchor**](./hello_solana_anchor/)
+#### 1. **hello_solana_anchor**
 A foundational Anchor program demonstrating the basic structure and initialization pattern.
 
 - **Features**: Simple program initialization, Anchor framework setup
-- **Program ID**: `DyjRE2i1kWEJ3veCp4ohNjLHmy8LGYQZvMM1fvvvjsKg`
+- **Program ID**: [DyjRE2i1kWEJ3veCp4ohNjLHmy8LGYQZvMM1fvvvjsKg](https://explorer.solana.com/address/DyjRE2i1kWEJ3veCp4ohNjLHmy8LGYQZvMM1fvvvjsKg?cluster=devnet)
 - **Tech Stack**: Anchor, Rust, TypeScript
 - **Purpose**: Learn Anchor framework basics and program deployment
 
-#### 2. [**On-Chain-Visit-Tracker**](./On-Chain-Visit-Tracker/)
+#### 2. **On-Chain-Visit-Tracker**
 A full-stack decentralized website visit counter with Next.js frontend.
 
 - **Features**:
@@ -40,7 +40,7 @@ A full-stack decentralized website visit counter with Next.js frontend.
 - **Tech Stack**: Anchor, Next.js, Tailwind CSS, Solana Web3.js
 - **Key Learnings**: Full-stack dApp development, wallet integration, on-chain data verification
 
-#### 3. [**solana-mint-token-blueprint**](./solana-mint-token-blueprint/)
+#### 3. **solana-mint-token-blueprint**
 Comprehensive SPL token creation and minting with Metaplex metadata integration.
 
 - **Features**:
@@ -50,11 +50,11 @@ Comprehensive SPL token creation and minting with Metaplex metadata integration.
   - Configurable mint and freeze authorities
   - 9 decimal precision support
 - **Deployed Addresses** (Devnet):
-  - Mint: `BikAsHyzpXGERKupnXUfe5GLX1t6cNDK1MBJ4q3ikpiS`
-  - Token Account: `5ojqB6481VkTaaZA9jonJeL8xtsphk2PwxvzGNsgpgeC`
+  - Mint: [BikAsHyzpXGERKupnXUfe5GLX1t6cNDK1MBJ4q3ikpiS](https://explorer.solana.com/address/BikAsHyzpXGERKupnXUfe5GLX1t6cNDK1MBJ4q3ikpiS?cluster=devnet)
+  - Token Account: [5ojqB6481VkTaaZA9jonJeL8xtsphk2PwxvzGNsgpgeC](https://explorer.solana.com/address/5ojqB6481VkTaaZA9jonJeL8xtsphk2PwxvzGNsgpgeC?cluster=devnet)
 - **Key Learnings**: CPI calls, Metaplex integration, token standards
 
-#### 4. [**SOL-Vault**](./SOL-Vault/)
+#### 4. **SOL-Vault**
 A programmable token vault system with automatic target amount management.
 
 - **Features**:
@@ -68,7 +68,7 @@ A programmable token vault system with automatic target amount management.
 
 - **Key Learnings**: SOL transfers, PDA signing, state management
 
-#### 5. [**Escrow-Blueprint**](./Escrow-Blueprint/)
+#### 5. **Escrow-Blueprint**
 A secure, trustless token-to-token escrow system for atomic token exchanges.
 
 - **Features**:
@@ -81,7 +81,7 @@ A secure, trustless token-to-token escrow system for atomic token exchanges.
 - **Tech Stack**: Anchor, SPL Token, Token Extensions
 - **Key Learnings**: PDA management, token transfers, account validation
 
-#### 6. [**Core-NFT-Blueprint**](./Core-NFT-Blueprint/)
+#### 6. **Core-NFT-Blueprint**
 A blueprint to create custom NFT tokens and collection using Metaplex Core.
 
 - **Features**:
@@ -89,14 +89,15 @@ A blueprint to create custom NFT tokens and collection using Metaplex Core.
   - Leverages the official Metaplex Core program for robust NFT functionality
   - Uploads images and metadata to Arweave via Irys for decentralized storage
   - Vitest-based tests with real Solana devnet interactions
-- **NFT Mint**: [FRA7M1NYjWJs8LRkt8qcrF9Gn659zmJSbnfnWeuEmoS7](https://core.metaplex.com/explorer/FRA7M1NYjWJs8LRkt8qcrF9Gn659zmJSbnfnWeuEmoS7?env=devnet)
-- **Collection Mint**: [CZDwqC6ex6njsAcdSKww5f9GEkKCdTfUPk4Dx1QLd2xf](https://explorer.solana.com/address/CZDwqC6ex6njsAcdSKww5f9GEkKCdTfUPk4Dx1QLd2xf?cluster=devnet)
+- **Deployed Addresses** (Devnet):
+    - NFT Mint: [FRA7M1NYjWJs8LRkt8qcrF9Gn659zmJSbnfnWeuEmoS7](https://core.metaplex.com/explorer/FRA7M1NYjWJs8LRkt8qcrF9Gn659zmJSbnfnWeuEmoS7?env=devnet)
+    - Collection Mint: [CZDwqC6ex6njsAcdSKww5f9GEkKCdTfUPk4Dx1QLd2xf](https://explorer.solana.com/address/CZDwqC6ex6njsAcdSKww5f9GEkKCdTfUPk4Dx1QLd2xf?cluster=devnet)
 - **Tech Stack**: Anchor, Metaplex Core, Codama
 - **Key Learnings**: NFTs implementation, account management
 
 ### 📖 Learning Resources
 
-#### 7. [**Rustlings**](./Rustlings/)
+#### 7. **Rustlings**
 Comprehensive Rust programming exercises covering all fundamental concepts.
 
 - **Content**: 100+ exercises across 23+ topics
@@ -113,13 +114,14 @@ Comprehensive Rust programming exercises covering all fundamental concepts.
 
 ```
 TurbinePB_Q425_Kabir-fx/
-├── hello_solana_anchor/           # Basic Anchor program
+├── Core-NFT-Blueprint/            # Core NFT Implementation
 ├── Escrow-Blueprint/              # Token escrow system
-├── SOL-Vault/                     # SOL vault with targets
-├── solana-mint-token-blueprint/   # Token minting with metadata
 ├── On-Chain-Visit-Tracker/        # Full-stack visit counter dApp
-├── Rustlings/                     # Rust exercises & solutions
 ├── RNG_GAME/                      # Rust learning projects
+├── Rustlings/                     # Rust exercises & solutions
+├── SOL-Vault/                     # SOL vault with targets
+├── hello_solana_anchor/           # Basic Anchor program
+├── solana-mint-token-blueprint/   # Token minting with metadata
 └── README.md                      # This file
 ```
 
