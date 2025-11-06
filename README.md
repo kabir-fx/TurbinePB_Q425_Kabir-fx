@@ -81,9 +81,22 @@ A secure, trustless token-to-token escrow system for atomic token exchanges.
 - **Tech Stack**: Anchor, SPL Token, Token Extensions
 - **Key Learnings**: PDA management, token transfers, account validation
 
+#### 6. [**Core-NFT-Blueprint**](./Core-NFT-Blueprint/)
+A blueprint to create custom NFT tokens and collection using Metaplex Core.
+
+- **Features**:
+  - Initialize NFT collections with metadata, update authorities, and organizational structure
+  - Leverages the official Metaplex Core program for robust NFT functionality
+  - Uploads images and metadata to Arweave via Irys for decentralized storage
+  - Vitest-based tests with real Solana devnet interactions
+- **NFT Mint**: [FRA7M1NYjWJs8LRkt8qcrF9Gn659zmJSbnfnWeuEmoS7](https://core.metaplex.com/explorer/FRA7M1NYjWJs8LRkt8qcrF9Gn659zmJSbnfnWeuEmoS7?env=devnet)
+- **Collection Mint**: [CZDwqC6ex6njsAcdSKww5f9GEkKCdTfUPk4Dx1QLd2xf](https://explorer.solana.com/address/CZDwqC6ex6njsAcdSKww5f9GEkKCdTfUPk4Dx1QLd2xf?cluster=devnet)
+- **Tech Stack**: Anchor, Metaplex Core, Codama
+- **Key Learnings**: NFTs implementation, account management
+
 ### 📖 Learning Resources
 
-#### 6. [**Rustlings**](./Rustlings/)
+#### 7. [**Rustlings**](./Rustlings/)
 Comprehensive Rust programming exercises covering all fundamental concepts.
 
 - **Content**: 100+ exercises across 23+ topics
