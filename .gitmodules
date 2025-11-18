@@ -19,3 +19,6 @@
 [submodule "Core-NFT-Blueprint"]
 	path = Core-NFT-Blueprint
 	url = https://github.com/kabir-fx/Core-NFT-Blueprint.git
+[submodule "Escrow-NFT-Exchange"]
+	path = Escrow-NFT-Exchange
+	url = https://github.com/kabir-fx/Escrow-NFT-Exchange.git

@@ -95,9 +95,27 @@ A blueprint to create custom NFT tokens and collection using Metaplex Core.
 - **Tech Stack**: Anchor, Metaplex Core, Codama
 - **Key Learnings**: NFTs implementation, account management
 
+#### 7. **Escrow-NFT-Exchange**
+An on-chain Solana program (Anchor) that enables **trustless NFT-for-SOL trades** using an escrow vault, built on top of **Metaplex Core**.
+
+- **Features**:
+  - **Create NFT Collections**: Initialize new Metaplex Core collections with metadata
+  - **Create NFT Assets**: Mint individual NFTs within collections
+  - **Make Offers**: Lock an NFT in escrow and specify the desired SOL amount
+  - **Take Offers**: Accept existing offers by paying the requested SOL amount
+  - **Refund Offers**: Cancel unaccepted offers and reclaim NFT ownership
+- **Deployed Addresses** (Devnet):
+  - Make Offer Signature: [3V9xEpAVs9DdFezUQsGQ2X5ivV5MKmQZUWLaRdTaAHq46Abmvj2AHv35iUjJNM5gpYRi816j7YHwUANxkSPCx67k](https://explorer.solana.com/tx/3V9xEpAVs9DdFezUQsGQ2X5ivV5MKmQZUWLaRdTaAHq46Abmvj2AHv35iUjJNM5gpYRi816j7YHwUANxkSPCx67k?cluster=devnet)
+
+  - Take Offer Signature: [PCSFfS9R8rqFt6BGhXbVgTz4uy4mSWXHFMoRj1fXXYMFbUQmTuWR31TEHzx5s7ERAwAFpyvD6xwybMg4wzMZeE7](https://explorer.solana.com/tx/PCSFfS9R8rqFt6BGhXbVgTz4uy4mSWXHFMoRj1fXXYMFbUQmTuWR31TEHzx5s7ERAwAFpyvD6xwybMg4wzMZeE7?cluster=devnet)
+
+  - Refund Offer Signature: [3QYQr9g8dbBTay2r8rxFz43JUppxXFQzvp8W2TJuYxCq5ch3TBvz4ruGTRLV6YcCKyBuDZox1ZeJKqkG5PwKQdY1](https://explorer.solana.com/tx/3QYQr9g8dbBTay2r8rxFz43JUppxXFQzvp8W2TJuYxCq5ch3TBvz4ruGTRLV6YcCKyBuDZox1ZeJKqkG5PwKQdY1?cluster=devnet)
+- **Tech Stack**: Anchor, Metaplex Core, Codama
+- **Key Learnings**: NFTs transfer, account management
+
 ### 📖 Learning Resources
 
-#### 7. **Rustlings**
+#### 8. **Rustlings**
 Comprehensive Rust programming exercises covering all fundamental concepts.
 
 - **Content**: 100+ exercises across 23+ topics
@@ -116,6 +134,7 @@ Comprehensive Rust programming exercises covering all fundamental concepts.
 TurbinePB_Q425_Kabir-fx/
 ├── Core-NFT-Blueprint/            # Core NFT Implementation
 ├── Escrow-Blueprint/              # Token escrow system
+├── Escrow-NFT-Exchange/           # Escrowed NFT system
 ├── On-Chain-Visit-Tracker/        # Full-stack visit counter dApp
 ├── RNG_GAME/                      # Rust learning projects
 ├── Rustlings/                     # Rust exercises & solutions
@@ -143,6 +162,8 @@ This repository is part of an educational program. For improvements:
 - [Anchor Framework](https://www.anchor-lang.com/)
 - [Rust Book](https://doc.rust-lang.org/book/)
 - [SPL Token Program](https://spl.solana.com/token)
+- [Metaplex Core](https://www.metaplex.com/)
+- [Codama](https://www.codama.idl/)
 
 ## 🙏 Acknowledgments
 
